@@ -1,8 +1,9 @@
 # Модуль YLab Validation
 
 Модуль является оберткой над библиотекой валидации Laravel.
-- php: >= 7.0
+- php: >= 7.0 (для illuminate/validation 5.5 и выше)
 - Bitrix: >= 17.0.0
+- Минимальная версия illuminate/validation - 5.4 (php: >=5.6.4)
 
 ## Установка
 
@@ -38,6 +39,9 @@ $this->oValidator = ValidatorHelper::makeCustomValidator([], $this->rules(), $sF
 ```
 В методе `ValidatorHelper::makeCustomValidator()` подключаются языковые файлы компонента и модуля. Языковые файлы модуля 
 содержат описание стандартных ошибок, наследуемый компонент может заменять предустановленные фразы ошибок на собственные.
+
+### Пример компонента
+https://github.com/ylabio/ylab.validation/blob/master/install/components/ylab/validation.test/class.php
 
 ### Собственные правила валидации
 
