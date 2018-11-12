@@ -1,4 +1,5 @@
 <?php
+
 namespace YLab\Validation;
 
 use Bitrix\Main\Application;

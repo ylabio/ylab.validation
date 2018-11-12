@@ -1,11 +1,11 @@
 # Модуль YLab Validation
 
 Модуль является оберткой над библиотекой валидации Laravel.
-- php: >= 7.0 (для illuminate/validation 5.5 и выше)
-- Bitrix: >= 17.0.0
-- Минимальная версия illuminate/validation - 5.4 (php: >=5.6.4)
+ * php: >=5.6.4
+ * Bitrix: >= 17.0.0
+ * illuminate/validation: >=5.4
 
-## Установка
+## Установка с github
 
 * Необходимо установить `illuminate/validation`, через composer:
 
@@ -24,6 +24,18 @@
 
 * В папку `local/modules` будет склонирован репозиторий модуля, после этого, необходимо в панели администратора 
 установить модуль: `Рабочий стол -> Marketplace -> Установленные решения`.
+
+## Установка через composer
+
+`composer require ylab/validation:dev-master`
+
+Для установки в `local/modules`, необходимо в composer.json добавить:
+```json
+"extra": {
+  //путь до папки local, например ../local, если composer.json лежит в папке local
+  "bitrix-dir": ""
+}
+```
 
 ## Использование
 
