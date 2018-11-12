@@ -1,5 +1,10 @@
 # Модуль YLab Validation
 
+[![Latest Stable Version](https://poser.pugx.org/ylab/validation/v/stable?format=flat-square)](https://packagist.org/packages/ylab/validation)
+[![Total Downloads](https://poser.pugx.org/ylab/validation/downloads?format=flat-square)](https://packagist.org/packages/ylab/validation)
+[![Latest Unstable Version](https://poser.pugx.org/ylab/validation/v/unstable?format=flat-square)](https://packagist.org/packages/ylab/validation)
+[![License](https://poser.pugx.org/ylab/validation/license?format=flat-square)](https://packagist.org/packages/ylab/validation)
+
 Модуль является оберткой над библиотекой валидации Laravel.
  * php: >=5.6.4
  * Bitrix: >= 17.0.0
